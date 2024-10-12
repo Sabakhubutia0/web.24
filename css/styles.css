@@ -50,13 +50,59 @@ ul {
 
 button {
     display: flex;
-  
-   background-color: #c0c2d1;
+    background-color: #c0c2d1;
     border: none;
     color: white;
-     padding: 7px 10px; 
+    padding: 7px 10px; 
     text-decoration: none;
-    font-size: 16px;
+    font-size: 16px; 
     cursor: pointer;
 }
+
+
+
+/* .parent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+} */
+
+.flex-parent {
+    display: flex;
+    
+}
+h1  {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.children-2  ,
+.children-3 {
+    margin-top: 140px;
+    
+}
+
+.children, 
+.children-2 {
+    margin-right: 25px;
+}
+
+.children-2  .box {
+
+    background-color:#0A22F4;
+
+}
+
+
+
+.box {
+    width: 70px;
+    height: 70px;
+    background-color: #F9F9F9;
+    margin-bottom: 40px;
+
+}
+
 
