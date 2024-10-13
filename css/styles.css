@@ -1,65 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 header {
-    background-color: #0A22F4;
+  background-color: #0a22f4;
 }
 
 img {
-    width: 100px;
-    
+  width: 100px;
 }
 
 .logo img {
-    margin-left: 10px;
+  margin-left: 45px;
 }
 
 .conteiner {
-    max-width: 1640px;
-    width: 100%;
-    margin: 0 auto;
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header ul {
-    display: flex;
-    margin-right: 35px;
-    gap: 40px;
+  display: flex;
+  margin-right: 35px;
+  gap: 40px;
 }
 
-a { 
-   
-    color: #fff;
-    text-decoration: none;
-    
+a {
+  color: #fff;
+  text-decoration: none;
 }
-
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 button {
-    display: flex;
-    background-color: #c0c2d1;
-    border: none;
-    color: white;
-    padding: 7px 10px; 
-    text-decoration: none;
-    font-size: 16px; 
-    cursor: pointer;
+  display: flex;
+  background-color: #c0c2d1;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
 }
-
-
 
 /* .parent {
     display: flex;
@@ -69,40 +62,58 @@ button {
 
 } */
 
+.div-box div {
+  background-color: #0a22f4;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.div-box {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.div-box :nth-child(2) {
+  opacity: 0.3;
+  margin-left: 20px;
+}
+
+.div-box :nth-child(3) {
+  opacity: 0.3;
+  margin-left: 20px;
+}
+
+section {
+  padding: 50px;
+}
+
 .flex-parent {
-    display: flex;
-    
+  display: flex;
 }
-h1  {
-    margin-top: 50px;
-    margin-bottom: 60px;
+h1 {
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
 
-.children-2  ,
+.children-2,
 .children-3 {
-    margin-top: 140px;
-    
+  margin-top: 140px;
 }
 
-.children, 
+.children,
 .children-2 {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
-.children-2  .box {
-
-    background-color:#0A22F4;
-
+.children-2 .box {
+  background-color: #0a22f4;
 }
-
-
 
 .box {
-    width: 70px;
-    height: 70px;
-    background-color: #F9F9F9;
-    margin-bottom: 40px;
-
+  width: 70px;
+  height: 70px;
+  background-color: #f9f9f9;
+  margin-bottom: 40px;
 }
-
-
